@@ -23,7 +23,7 @@ public class CandySwap {
 	public static void printCandies(int initialCandies, int exchangeCost)
 	{
 		
-		Integer initCandies = initialCandies;
+		int initCandies = initialCandies;
 		int currentWrappers = initialCandies;
 		int newWrappers = 0;
 		while (currentWrappers >= exchangeCost)
